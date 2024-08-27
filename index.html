@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="logo de alura" class="logo">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingresa aquí tu texto :)"></textarea>
+            <div>
+                <h6 class="informacion">Utiliza únicamente letras minúsculas sin acentos.</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()" >encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()" >desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="32" rows="16"></textarea>
+            <div>
+                <button class="copiar" onclick="copiarTexto()" >copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="rodapie">LUIS ARAIZA (2024)</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
